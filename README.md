@@ -121,22 +121,22 @@ show spanning-tree detail
 
 ## Contramedida
 ```bash
-SW1(config)# spanning-tree portfast bpduguard default
-SW1(config)# interface gi3/3
-SW1(config-if)# spanning-tree bpduguard enable
-SW1(config-if)# exit
-SW1(config)# interface gi0/1
-SW1(config-if)# spanning-tree guard root
-SW1(config-if)# exit
-SW1(config)# interface gi0/2
-SW1(config-if)# spanning-tree guard root
-SW1(config-if)# exit
-SW1(config)# end
-SW1# write memory
+SW1-20211150(config)# spanning-tree portfast bpduguard default
+SW1-20211150(config)# interface gi3/3
+SW1-20211150(config-if)# spanning-tree bpduguard enable
+SW1-20211150(config-if)# exit
+SW1-20211150(config)# interface gi0/1
+SW1-20211150(config-if)# spanning-tree guard root
+SW1-20211150(config-if)# exit
+SW1-20211150(config)# interface gi0/2
+SW1-20211150(config-if)# spanning-tree guard root
+SW1-20211150(config-if)# exit
+SW1-20211150(config)# end
+SW1-20211150# write memory
 
 # Verificar:
-SW1# show spanning-tree
-SW1# show spanning-tree inconsistentports
+SW1-20211150# show spanning-tree
+SW1-20211150# show spanning-tree inconsistentports
 ```
 
 ### Verificación contramedida
