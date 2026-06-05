@@ -2,7 +2,7 @@
 Ataque STP Root Claim — Matrícula 20211150
 **Autor:** Alvaro Smilk Baez Tavera
 **Matrícula:** 20211150
-**Fecha:** Junio 2026
+**Fecha:** 5 Junio 2026
 
 ---
 
