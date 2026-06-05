@@ -106,16 +106,16 @@ show spanning-tree detail
 
 ## Capturas
 ### Antes — Root Bridge legítimo
-![Antes](capturas/06_antes.png)
+![Antes](root1.png)
 
 ### Script corriendo en Kali
-![Script](capturas/06_script.png)
+![Script](root2.png)
 
 ### Root Bridge cambiado a Kali
-![Durante](capturas/06_durante.png)
+![Durante](root3.png)
 
 ### show spanning-tree con Kali como Root
-![STP](capturas/06_stp.png)
+![STP](root3.png)
 
 ---
 
@@ -140,7 +140,7 @@ SW1# show spanning-tree inconsistentports
 ```
 
 ### Verificación contramedida
-![Contramedida](capturas/06_contramedida.png)
+![Contramedida](root4.png)
 
 ---
 
